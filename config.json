@@ -1,0 +1,11 @@
+{
+    "port": 443,
+    "token": ["TOKEN0", "TOKEN1"],
+    "certificate": "/PATH/TO/CERT",
+    "private_key": "/PATH/TO/PRIV_KEY",
+    "ip": "::",
+    "congestion_controller": "bbr",
+    "alpn": ["h3"],
+    "max_udp_relay_packet_size": 1500,
+    "log_level": "info"
+}
